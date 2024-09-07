@@ -1,35 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Sample Deployment</title>
-  <style>
-    body {
-      color: #ffffff;
-      background-color: #0188cc;
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-    }
-    
-    h1 {
-      font-size: 500%;
-      font-weight: normal;
-      margin-bottom: 0;
-    }
-    
-    h2 {
-      font-size: 200%;
-      font-weight: normal;
-      margin-bottom: 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neeraj Singh - Portfolio</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0188cc;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Centering container */
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+
+        /* Heading and subtitle styling */
+        h1 {
+            font-size: 60px;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+
+        /* Link Styling */
+        a {
+            color: #ffdd57;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* New section styling */
+        .bio {
+            background-color: #02669e;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        .bio p {
+            font-size: 18px;
+        }
+
+        .projects {
+            background-color: #034b7e;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .projects li {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .projects li::before {
+            content: "•";
+            color: #ffdd57;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        .contact {
+            background-color: #01527d;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        .contact p {
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-  <div align="center">
-    <h1>Waaw, Congratulations Prabhakar you did it ...</h1>
-    <h2>This application was deployed using AWS CodeDeploy.</h2>
-    <p>For next steps, read the <a href="http://aws.amazon.com/documentation/codedeploy">AWS CodeDeploy Documentation</a>.</p>
-  </div>
+    <div class="container">
+        <h1>Neeraj Singh</h1>
+        <h2>Software Developer | Machine Learning Enthusiast</h2>
+
+        <div class="bio">
+            <p>Hello, I'm Neeraj Singh, a passionate software developer specializing in backend development, machine learning, and cloud computing. I love working on complex algorithms, exploring data science, and building efficient, scalable applications. I have hands-on experience in Python, AWS, and deep learning frameworks like TensorFlow.</p>
+        </div>
+
+        <div class="projects">
+            <h2>Projects Highlights</h2>
+            <ul>
+                <li><strong>Image Classification Model:</strong> Built a deep learning model using TensorFlow to classify images with an accuracy of over 90% on the CIFAR-10 dataset.</li>
+                <li><strong>Flight Booking System:</strong> Developed a dynamic web application using HTML, CSS, and JavaScript to simulate an airline booking system with advanced features.</li>
+                <li><strong>Automated Deployment Pipeline:</strong> Designed and deployed an automated CI/CD pipeline on AWS using CodeDeploy for continuous integration and delivery of applications.</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:neeraj.singh@example.com">neeraj.singh@example.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/neerajsingh">linkedin.com/in/neerajsingh</a></p>
+        </div>
+    </div>
 </body>
 </html>
-
